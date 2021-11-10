@@ -1,0 +1,114 @@
+body{
+  background-color: #FFF2BE;
+  margin: 0 auto;
+}
+.main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+ }   
+  .main li {
+    float: left;
+    margin: 10px;
+    padding-left: 20px;
+ }
+  
+  .main li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+  }
+  .main li a:hover {
+    background-color: #111;
+  }
+
+#logo{
+  width: 500px;
+  height: auto;
+}
+img.esp{
+  float:right;
+  padding-top: 10px;
+  width: 48px;
+  height: 48px;
+  padding-right: 20px;
+}
+img.pt{
+  float:right;
+  padding-top: 10px;
+  width: 48px;
+  height: 48px;
+  padding-right: 20px;
+}
+section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.descripcion{
+  order: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.logoyvideo{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: transparent;
+}
+.videoYT{
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 350px;
+  height: 500px;
+  background-color: lightyellow;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+
+article button{
+  width: 150px;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  border: none;
+}
+article button:hover{
+  background-color: #111;
+}
+
+.imgLogos1{
+  margin: 20px;
+  width: 300px;
+  height: 260px;
+  background-image: url("img/logoPan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgLogos2{
+  margin: 20px;
+  width: 300px;
+  height: 260px;
+  background-image: url("img/cakeLogo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgLogos3{
+  margin: 20px;
+  width: 300px;
+  height: 260px;
+  background-image: url("img/logoEmpanada.jpg");
+  background-repeat: no-repeat;
+}

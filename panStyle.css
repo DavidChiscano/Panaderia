@@ -1,0 +1,41 @@
+body{
+    background-color: #FFF2BE;
+    margin: 0 auto;
+}
+
+article{
+    display: flex;
+    flex-flow: wrap;    
+    margin: 15px;
+    justify-content: center;
+}
+header{
+    background-color: #333;
+    text-align: center;
+    color:white;
+    padding: 15px;
+}
+.container{
+    margin: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center; /* adjusted */
+}
+
+picture img{
+    width: 210px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+article button{
+    width: 150px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
